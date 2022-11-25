@@ -5,7 +5,7 @@
 def primes(number_of_primes):
     list = []
 
-    if number_of_primes == 0:
+    if number_of_primes <= 0:
         raise ValueError
 
     count = 2
